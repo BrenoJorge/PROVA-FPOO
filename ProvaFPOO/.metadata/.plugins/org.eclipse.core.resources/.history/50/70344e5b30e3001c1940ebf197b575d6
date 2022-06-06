@@ -1,0 +1,20 @@
+package controllers;
+
+import java.util.ArrayList;
+
+import dao.OrcamentoDAO;
+import models.Orcamento;
+
+public class OrcamentoProcess {
+	
+	ArrayList<Orcamento> orcamentos = new ArrayList<>();
+	OrcamentoDAO od;
+	
+	public boolean compararProdutos() {
+		return false;
+	}
+	
+	public boolean Salvar() {
+		return false;
+	}
+}

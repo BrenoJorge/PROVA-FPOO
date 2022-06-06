@@ -1,0 +1,10 @@
+package models;
+
+public class Orcamento {
+	
+	int id;
+	String fornecedor;
+	String produto;
+	Double preco;
+	boolean maisBarato;
+}

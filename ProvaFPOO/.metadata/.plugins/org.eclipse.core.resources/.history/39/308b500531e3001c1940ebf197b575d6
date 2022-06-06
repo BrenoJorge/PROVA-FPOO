@@ -1,0 +1,12 @@
+package viewers;
+
+import java.util.Scanner;
+
+public class consoleTeste {
+
+	public static void main(String[] args) {
+		Scanner leia = new Scanner(System.in);
+		
+	}
+
+}

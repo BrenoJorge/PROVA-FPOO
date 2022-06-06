@@ -1,0 +1,29 @@
+package controllers;
+
+import java.text.ParseException;
+import java.util.ArrayList;
+
+import dao.OrcamentoDAO;
+import models.Orcamento;
+
+public class OrcamentoProcess {
+	
+	public static ArrayList<Orcamento> orcamentos = new ArrayList<>();
+	private static OrcamentoDAO od;
+	
+	public boolean compararProdutos() {
+		return false;
+	}
+	
+	public boolean Salvar() {
+		return false;
+	}
+	
+	public static void abrir(){
+		try {
+			orcamentos = od.ler();
+		} catch (ParseException e) {
+			System.out.println(e);
+		}
+	}
+}
